@@ -1,12 +1,11 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
-import Home from "@/pages/Home.vue"
+import Navbar from "./components/Navbar.vue"
 </script>
 
 <template>
-  <Navbar />
-  <router-view />
-  <Home />
+  <h1>rasulbek</h1>
+  <Navbar/>
+  <RouterView/>
 </template>
 
 <style scoped>
